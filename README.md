@@ -1,12 +1,13 @@
-# JSON to CSV Converter
+# JSON Toolkit
 
-This tool provides an easy and efficient way to convert JSON files to CSV format. It's designed to handle common exceptions and edge cases, ensuring a smooth conversion process.
+This repository hosts two essential tools for working with JSON files: a JSON to CSV Converter and a JSON Validator and Cleaner. These tools are designed to streamline the process of converting, validating, and cleaning JSON files before their conversion to CSV format.
 
-Insert JSON File: Enter the path to your JSON file when prompted.
-Specify CSV File Path: Enter the desired path for your CSV file.
-Conversion: The tool will convert the JSON to CSV and save it to the specified location. 
+## Tools
 
-Run the script and follow the interactive prompts to specify the JSON file you want to convert and the desired output CSV file path.
+### 1. JSON to CSV Converter
 
-```bash
-python json_to_csv_converter.py
+Converts JSON files to CSV format, handling common exceptions and edge cases for a smooth conversion process.
+
+### 2. JSON Validator and Cleaner
+
+Validates the format of JSON files and cleans the data by removing unwanted or null fields, ensuring data consistency before conversion.
