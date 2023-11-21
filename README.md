@@ -11,3 +11,14 @@ Converts JSON files to CSV format, handling common exceptions and edge cases for
 ### 2. JSON Validator and Cleaner
 
 Validates the format of JSON files and cleans the data by removing unwanted or null fields, ensuring data consistency before conversion.
+
+## Usage
+### JSON to CSV Converter
+Run the script and follow the interactive prompts to specify the JSON file you want to convert and the desired output CSV file path.
+
+"python json_to_csv_converter.py"
+
+### JSON Validator and Cleaner
+Run the script, provide the path to your JSON file, and the tool will validate and clean the data, saving a new cleaned JSON file.
+
+"python json_validator_and_cleaner.py"
